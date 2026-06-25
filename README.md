@@ -1,29 +1,24 @@
-﻿# Spring Boot Project
+﻿# Spring Boot Project — Operations Starter
 
-## Objective
-Minimal Java/Spring Boot project scaffold used as a portfolio foundation and implementation reference.
+## What this repo means to me
+A clean baseline project for Java/Spring backend work. I use this as a practical evidence point for how I structure service foundations: dependency hygiene, plugin setup, and a reproducible build.
 
-## Stack
-- Java 8
-- Spring Boot 2.1.7
-- Gradle (Gradle Wrapper)
-- Spring Web, Spring Test
+## Recruiter-focused notes
+- **Case**: Service foundation that can be extended without structural drift
+- **Focus**: stable project bootstrap, predictable build behavior
+- **Why useful**: shows I can start from clean architecture and avoid ad-hoc setup
 
-## What this repo shows
-- Basic project bootstrapping using uild.gradle and Gradle wrapper
-- Dependency and plugin setup for Spring Boot web applications
-- Versioned project structure suitable for extension to real service features
-
-## Why this matters to hiring teams
-- Demonstrates practical familiarity with Gradle-based Spring Boot environment setup and dependency management.
-- Shows ability to prepare a clean baseline for future service modules and operational hardening work.
+## Quick proof points
+- Gradle wrapper and Spring Boot plugin setup are explicit
+- Dependency scope is minimal and readable
+- Web starter + testing baseline are in place
 
 ## Run
-`ash
+```bash
 git clone https://github.com/amaranth92/springBootProject.git
 cd springBootProject
 ./gradlew test
-`
+```
 
-## Note
-This repository is intended as a clean, practical basis for hands-on backend development and operationally focused practice.
+## Skills shown
+Java, Spring Boot, Gradle, project initialization discipline
